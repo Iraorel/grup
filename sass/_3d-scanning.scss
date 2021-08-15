@@ -6,28 +6,13 @@
   margin-right: auto;
 }
 
-@media screen and(min-width: 480px) {
-  .conteiner {
-    max-width: 480px;
-
-    border: 1px solid orangered;
-  }
-}
-
-@media screen and(min-width: 768px) {
-  .conteiner {
-    max-width: 768px;
-  }
-}
-
-@media screen and(min-width: 1440px) {
-  .conteiner {
-    max-width: 1440px;
-  }
-}
-
 .scan {
+  font-family: CeraPro-Regular;
+  font-style: normal;
+  font-weight: 300;
   padding-bottom: 16px;
+  line-height: 1.25px;
+  color: var(--black-text-color);
 
   @media screen and (min-width: 768px) {
     padding-left: 194px;
@@ -39,6 +24,15 @@
   }
 }
 
+.hero-scan {
+  font-family: CeraPro-Regular;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 36px;
+  line-height: 1.25px;
+
+  color: var(--blue-accent-color);
+}
 .process {
   width: 133px;
   height: 183px;
